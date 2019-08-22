@@ -8,9 +8,10 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(system.in);
+        Scanner scanner = new Scanner(System.in);
         String userName = scanner.nextLine().trim();
-        System.out.println("Welcome," + userName"!");
+        System.out.println("Welcome," + userName + "!");
+        System.out.println("done!");
         scanner.close();
     }
 }
